@@ -1,0 +1,17 @@
+/* ToggleButton.css */
+
+.navbar-toggler {
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  
+}
+
+.navbar-toggler.active {
+  transform: rotate(180deg);
+  
+}
+
+.icon {
+  font-size: 24px;
+}

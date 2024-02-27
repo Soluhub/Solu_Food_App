@@ -1,0 +1,123 @@
+div{
+    margin: 0;
+    width: 100%;
+}
+.center-div{
+    height: 100%; /* You can adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.starter{
+    border: 1px solid lightgray;
+    width: fit-content;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;    
+}
+.complete{
+    border: 1px solid lightgray;
+    width: fit-content;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(253, 242, 233);
+    overflow: clip;
+    
+}
+element.style {
+    margin: auto;
+}
+.headings{
+    text-align: center;
+    color: #cf711f;  
+    margin-top: 2%;
+    font-size: large;
+    
+}
+.sub-headings{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sign{
+    color: black;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: fantasy;
+
+}
+.month{
+    color: rgb(111, 111, 111);
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.icon-text{
+    text-align: left;
+    text-align: start;
+    margin-left: 0%;
+    gap: 1.6rem;
+    margin-left: 5%;
+}
+.iconclass{
+    gap: 1.2rem;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+li{
+    text-align: left;
+}
+.btn2{
+    margin-bottom: 30px;
+}
+.badge {
+    
+    text-transform: uppercase;
+    color: #333;
+    background-color: #ffd43b;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    transform: rotate(45deg);
+    position: relative;
+    top: 30px; 
+    right: -150px; 
+    
+}
+
+.terms{
+    text-align: center;
+    color: rgb(111, 111, 111);   
+    font-size: medium;
+}
+@media (max-width: 768px) {
+    .price {
+      flex-direction: column; 
+    }
+    
+    .div{
+        width: 100%;
+    }
+    .starter{
+        margin: auto;
+    }
+    .complete{
+        margin: auto;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .starter{
+        margin: auto;
+    }
+    .complete{
+        margin: auto;
+    }
+  }
+  
